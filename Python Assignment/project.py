@@ -37,11 +37,9 @@ while playing:
         if play_again == "y": # if yes, break and restart game
             break
         elif play_again == "n":
-            play_again = False # if no end program
+            playing = False # if no end program
             break
         else:  # ensure correct option is entered
             print("Please enter 'y' for continue playing and 'n' for end game.")
 
 print("Thanks for playing!!")
-
-
